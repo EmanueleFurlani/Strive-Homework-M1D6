@@ -316,8 +316,8 @@ const movies = [
         if (arr[i].Year < arr[tempIndex].Year) {
         tempIndex = i      
     }
-return arr[tempIndex]
     }
+    return arr[tempIndex]
 }
 console.log(olderMovie(movies)) 
 /*olderMovie = Math.min.apply(null, movies.map(function(item) {
